@@ -1,0 +1,45 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATtiny24</DEVICE>
+ <WORKING_DIR>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn24def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.hex</FILE>
+  <FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.eep</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>52</LINE></INIT>
+  <NES_OUT><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>71</LINE></NES_OUT>
+  <NES_LATCH><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>80</LINE></NES_LATCH>
+  <MAIN><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>208</LINE></MAIN>
+  <SNES_READ><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>90</LINE></SNES_READ>
+  <SNES_DELAY><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>387</LINE></SNES_DELAY>
+  <KONAMI><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>240</LINE></KONAMI>
+  <NO_X><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>230</LINE></NO_X>
+  <MAIN_TOGGLE><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>234</LINE></MAIN_TOGGLE>
+  <LONG_DELAY><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>394</LINE></LONG_DELAY>
+  <RECEIVE_232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>283</LINE></RECEIVE_232>
+  <WAIT_232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>285</LINE></WAIT_232>
+  <HALFDELAY_232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>363</LINE></HALFDELAY_232>
+  <FULLDELAY_232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>371</LINE></FULLDELAY_232>
+  <SEND_232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>316</LINE></SEND_232>
+  <TXDELAY_232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>379</LINE></TXDELAY_232>
+  <HALFDELAY_2232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>365</LINE></HALFDELAY_2232>
+  <FULLDELAY_2232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>373</LINE></FULLDELAY_2232>
+  <TXDELAY_2232><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>381</LINE></TXDELAY_2232>
+  <SNES_DELAY2><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>389</LINE></SNES_DELAY2>
+  <LONGD2><FILE>C:\Users\Dragomir Mikhailov\Documents\SNES_to_NES_ATtiny24\SNES_to_NES_ATtiny24.asm</FILE><LINE>397</LINE></LONGD2>
+ </LABELS>
+</ASSEMBLER_INFO>

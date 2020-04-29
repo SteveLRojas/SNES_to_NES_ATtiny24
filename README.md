@@ -15,3 +15,8 @@ This version works, and has been tested with Contra, B-Wings, and Rad Racer. Unf
 During testing I noticed that the NES timings depend on the game being played, Contra sends the latch pulse right before the first clock pulse but B-Wings sends the latch pulse much earlier.
 It is possible for some games to read the controller in a way that extends the clock pulses, which would not work. I am currently working on this issue.
 I also discovered that the NES clock is normally high, which annoys me greatly because I always assumed it was normally low.
+
+Bug fix: Added extra check in interrupt handler for NES clock. This will ensure that the interrupt handler is called only once per clock pulse.
+Now there are two methods to ensure that the interrupt works correctly: For short pulses clearing GIFR ensures that the interrupt happens only once.
+For longer pulses there is a check at the start of the interrupt handler that checks the state of the NES clock to determine if the edge was rising or falling. Falling edges are ignored, so even though the interrupt happens twice the outputs are updated only once.
+The interrupt handler for latch pulses works in the same way. This code was tested with Contra, Rad Racer, B-Wings, and Crystalis. All games worked correctly.
